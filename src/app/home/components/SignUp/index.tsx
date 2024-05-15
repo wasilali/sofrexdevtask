@@ -5,14 +5,13 @@ const Index = () => {
   return (
     <div
       className=" xl:py-20 bg-bluishCyan bg-signup-pattern px-8 
-      md:py-0
-      py-5
+      md:py-16
+      py-0
       "
     >
-      <section className="2xl:max-w-[1452px] w-full mx-auto md:flex hidden lg:flex-row lg:items-stretch items-center flex-col lg:h-[680px] h-auto gap-5">
-        {/* <div className='border-[20px] border-white rounded-lg max-w-[500px]  w-full'> */}
+      <section className="2xl:max-w-[1452px] w-full mx-auto md:flex hidden lg:flex-row items-center flex-col-reverse lg:h-[680px] h-auto gap-5">
         <div
-          className="bg-blue-mini bg-contain  bg-no-repeat max-w-[468px]  h-[540px] rounded-lg z-20  w-full hidden md:block
+          className="bg-blue-mini bg-contain  bg-no-repeat max-w-[468px] h-[540px] rounded-lg z-20  w-full hidden md:block
           relative"
         >
           <div className="flex justify-center flex-col items-center h-full w-full ">
@@ -36,7 +35,7 @@ const Index = () => {
             alt="two girls"
             width={343}
             height={480}
-            className="-ml-28 z-50"
+            className="-ml-28 z-50 lg:h-[480px] h-[300px] lg:w-[343px] w-[240px]"
           />
           <p className="xl:ms-40 ms-5 lg:mr-16 flex flex-col items-start text-ocean text-xl font-medium md:text-start text-center">
             <span>

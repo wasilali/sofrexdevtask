@@ -5,8 +5,8 @@ import React, { useState } from "react";
 const Index = () => {
   return (
     <>
-      <div className="md:block hidden transition-all bg-guardian_icons bg-Orangeyyellow  lg:h-[740px] px-8 py-[70px] ">
-        <div className="bg-white rounded-lg flex lg:flex-row flex-col lg:py-0 py-10 justify-center items-center h-full w-full gap-16">
+      <div className=" transition-all bg-guardian_icons bg-Orangeyyellow  lg:h-[740px] px-8 py-[70px] ">
+        <div className="2xl:max-w-[1452px] mx-auto bg-white rounded-lg flex lg:flex-row flex-col lg:py-0 py-10 justify-center items-center h-full w-full gap-16 p-4">
           <p className=" flex flex-col items-start text-ocean text-2xl font-medium">
             <span className="font-semibold">
               Automate monitoring of your trading
@@ -38,7 +38,7 @@ function GuardianAngel() {
       <Image
         src={"/milestone_5.png"}
         alt="milestone_5"
-        width={504}
+        width={450}
         height={124}
         style={{ transition: "transform 0.5s", transform: `scale(${scaleUp})` }}
       />
@@ -46,20 +46,20 @@ function GuardianAngel() {
         src={"/trading_behavior_5.png"}
         alt="trading_behavior_Stock_5"
         className="my-14"
-        width={504}
+        width={450}
         height={124}
       />
       <Image
         src={"/trading_behavior_Stock_5.png"}
         alt="trading_behavior"
-        width={504}
+        width={450}
         height={124}
       />
       <Image
         src={"/Input_file_2.png"}
         alt="Input_file_2"
         className="my-5"
-        width={504}
+        width={450}
         height={124}
       />
     </div>

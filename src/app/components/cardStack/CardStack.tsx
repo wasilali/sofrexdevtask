@@ -21,26 +21,24 @@ const CardStack = ({image1,image2,image3,top1,top2,top3, height = "480px", width
 
     return (
         <div 
-            className={`relative`}
+            className="relative flex justify-center items-center lg:mt-[100px]"
             style={{ height: height, width: width }}
             onMouseLeave={() => setScaleUp(1)}
             onMouseOver={() => setScaleUp(1.2)}
             >
             <div className='absolute top-2'
-                // style={{ transition: 'transform 0.5s', transform: `scale(${scaleUp})` }}
                 style={{top:top1|| "0.5rem"}}
             >
-                <Image src={image1||"/brokage_card_1.png"} alt="brokage_card_1.png" width={571} height={226} />
+                <Image src={image1||"/brokage_card_1.png"} alt="brokage_card_1.png" width={430} height={226} />
             </div>
             <div className='absolute top-8'
-                // style={{ transition: 'transform 0.5s', transform: `scale(${scaleUp})` }}
                 style={{top:top2 || "2rem"}}
             >
-                <Image src={image2||"/brokage_card_2.png"} alt="brokage_card_2.png" width={571} height={226} />
+                <Image src={image2||"/brokage_card_2.png"} alt="brokage_card_2.png" width={430} height={226} />
             </div>
             <div className='absolute top-20'
                 style={{ transition: 'transform 0.5s', transform: `scale(${scaleUp})`,top:top3 || "5rem" }}>
-                <Image src={image3||"/brokage_card_3.png"} alt="brokage_card_3.png" width={571} height={226} />
+                <Image src={image3||"/brokage_card_3.png"} alt="brokage_card_3.png" width={430} height={226} />
             </div>
         </div>
     );

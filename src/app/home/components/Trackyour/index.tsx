@@ -7,10 +7,10 @@ const Index = () => {
   return (
     <>
       <div
-        className="lg:block hidden bg-track_icons bg-parisgreen lg:h-[740px] h-auto
-           px-8 pt-[70px]"
+        className="bg-track_icons bg-parisgreen lg:h-[600px] h-auto
+           px-8 py-16"
       >
-        <div className="bg-white rounded-lg flex lg:flex-row flex-col lg:py-0 py-10 justify-center items-center h-full w-full gap-16">
+        <div className="2xl:max-w-[1452px] mx-auto bg-white rounded-lg flex lg:flex-row flex-col lg:py-0 py-10 justify-center items-center h-full w-full gap-16">
           <CardStack
             image1="/tract_your_card_1.png"
             image2="/tract_your_card_2.png"
