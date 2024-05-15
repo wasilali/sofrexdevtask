@@ -20,10 +20,10 @@ const Hero = () => {
           </p>
         </div>
         <div
-          className="rounded-tr-[40px] rounded-br-[40px] md:mx-0 mx-10  shadow-[0_3px_10px_rgb(0,0,0,0.2)] md:shadow-none bg-form-pattern max-w-lg h-[460px] 
-           w-full bg-no-repeat bg-cover px-10 "
+          className="flex items-center rounded-tr-[40px] rounded-br-[40px] md:mx-0 mx-10  shadow-[0_3px_10px_rgb(0,0,0,0.2)] md:shadow-none bg-form-pattern max-w-lg h-[460px] 
+           w-full bg-no-repeat bg-cover px-6"
         >
-          <form className="flex items-center justify-center  flex-col  bg-white max-w-[460px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] w-full  mx-auto rounded-3xl lg:h-[80%] h-auto  mt-12 lg:px-16 p-5">
+          <form className="flex items-center justify-center  flex-col  bg-white max-w-[460px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] w-full  mx-auto rounded-3xl lg:h-[90%] h-auto lg:px-16 p-5">
             <p className="font-bold text-center text-base mt-5 mb-8 text-bluishCyan">
               Welcome Back
             </p>
